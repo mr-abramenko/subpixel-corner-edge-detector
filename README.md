@@ -2,6 +2,8 @@
 
 The proposed approach is based on the algebraic moments of the brightness function of halftone images. The ideal two-dimensional L-corner model is considered. The model has the following four parameters: the coordinates of the corner vertex, the orientation and the degree measure of the corner, and the brightness values from both sides of the corner. A particular case of the corner model is a linear model describing a linear edge. To obtain all subpixel parameters of the edge six algebraic moments are used. To compute the moments rapidly masks are used. On the basis of the corner model an algorithm that makes it possible to quickly refine the coordinates of the corner and edge points on an image with subpixel accuracy is proposed. The use of integral characteristics increases the resistance to various kinds of noises.
 
+[Examples](https://github.com/Abramenko/subpixel_corner_edge_detector/blob/master/img/results/README.md)
+
 # References
 [1] Abramenko A.A., Karkishchenko A.N. "Applications of algebraic moments for edge detection for locally linear model." Pattern Recognition and Image Analysis 27.3 (2017): 433-443.
 
